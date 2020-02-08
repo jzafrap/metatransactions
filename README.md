@@ -16,7 +16,7 @@ truffle test --network ganache
 
 # Involved artifacts:
 
-1) MetaTransactionProvider: is a smart contract that acts as a proxy, and provide some methods for signature verifying and execution of 
+1) MetaTransactionProvider: is a smart contract that acts as a proxy, and provides some methods for signature verifying and execution of 
 call to 3d party smart contract methods.
 
 2) MockVault: is the smart contract which methods we want to call, without the caller have to pay the fees. It has two simple methods used in the tests.
@@ -27,6 +27,7 @@ call to 3d party smart contract methods.
 
 # description
 
-See test/metatransaction.js for explained code.
+See test/metatransaction.js for explained unit tests.
+See contracts/MetaTransactionProvider.sol for an explanation of proxy smart contract methods.
 
 
